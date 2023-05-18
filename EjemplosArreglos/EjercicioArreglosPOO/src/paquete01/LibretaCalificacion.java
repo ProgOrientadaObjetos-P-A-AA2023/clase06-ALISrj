@@ -95,8 +95,12 @@ public class LibretaCalificacion {
     @Override
     public String toString() {
         String cadena = "Libreta de Calificaciones\n";
-        cadena = String.format("%sColegio: %S\nCiudad: %S\nNombre: %s\nCalificaciones:\n", cadena,
-                obtenerColegio().obtenerNombre(), obtenerColegio().obtenerCiudad(), obtenerEstudiante());
+        cadena = String.format("%sColegio: %S\nCiudad: %S\nNombre: "
+                + "%s\n\nCalificaciones:\n",
+                cadena,
+                obtenerColegio().obtenerNombre(),
+                obtenerColegio().obtenerCiudad(),
+                obtenerEstudiante());
         // cadena = String.format("%sNombre: %s\nCalificaciones:\n", cadena,
         //        estudiante);
 
