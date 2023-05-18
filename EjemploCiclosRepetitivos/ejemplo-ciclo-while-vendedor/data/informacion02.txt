@@ -1,0 +1,14 @@
+Datos de Vendedor
+Nombre: Alex
+Edad: 23
+Salario mínimo: 345,00
+Número de autos: 45
+Pago mensual: 7095,00
+
+Datos de Vendedor
+Nombre: Sebjsit
+Edad: 90
+Salario mínimo: 986234,00
+Número de autos: 30
+Pago mensual: 990734,00
+
